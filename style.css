@@ -38,7 +38,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 15px;
   width: 40vw;
   padding: 15px;
 }
@@ -58,6 +59,7 @@ body {
 
 .card:hover .icones {
   visibility: visible;
+  filter: opacity(15%);
 }
 
 .card:hover {
@@ -67,11 +69,14 @@ body {
 
 .id {
   line-height: 1.5;
+  align-items: center;
 }
 
 .id_nome {
   font-size: 24px;
+  font-weight: 700;
 }
+
 .id_mail {
   color: #bbb;
   display: flex;
@@ -93,4 +98,5 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center; */
+  list-style: none;
 }
