@@ -38,8 +38,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 15px;
+  justify-content: space-between;
+  gap: 25px;
   width: 40vw;
   padding: 15px;
 }
