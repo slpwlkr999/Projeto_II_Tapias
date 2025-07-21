@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+  color: #385555;
+  text-align: center;
+}
+
+.menu_contatos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 60vh;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+  padding: 15px;
+}
+
+.foto {
+  border-radius: 50%;
+}
+
+.icones {
+  display: flex;
+  gap: 15px;
+}
+
+.card .icones {
+  visibility: hidden;
+}
+
+.card:hover .icones {
+  visibility: visible;
+}
+
+.card:hover {
+  background-color: #eee;
+  box-shadow: inset 0px 0px 1px #aaa;
+}
+
+.id {
+  line-height: 1.5;
+}
+
+.id_nome {
+  font-size: 24px;
+}
+.id_mail {
+  color: #bbb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  font-size: 16px;
+}
+
+.icone img {
+  width: 15px;
+  height: 15px;
+}
+
+.cardflow {
+  height: 500px;
+}
